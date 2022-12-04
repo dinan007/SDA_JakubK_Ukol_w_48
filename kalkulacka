@@ -1,0 +1,15 @@
+# a = int(input("Zadej první čislo: "))
+# b = int(input("Zadej druhé čislo: "))
+
+a = input("Zadej první čislo: ")
+b = input("Zadej druhé čislo: ")
+
+if a.isdigit() and b.isdigit():
+    a = float(a)
+    b = float(b)
+
+    print(a / b)
+
+else:
+    print("Špatný vstup jdu se vypnout.")
+
